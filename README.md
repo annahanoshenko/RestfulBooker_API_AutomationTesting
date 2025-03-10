@@ -4,6 +4,9 @@ Restful Booker API Testing
 
 This repository contains automated test cases for the Restful Booker API, an API that allows users to create, update, retrieve, and delete hotel bookings. The tests are written in C# using the NUnit testing framework and utilize RestSharp for making HTTP requests to interact with the API.
 
+I created drag-and-drop positive and negative test cases to test the Recycling, Deleting, Zooming, and Closing of images. 
+For zooming, I created an array ImageWidget[] imageWidgets, and, using Dictionary<string, string>, I can work with different manipulations on a specific image.
+
 **Features
 
 Test Scenarios: -Create Booking (POST): Verifying the correct creation of a new booking with the required parameters. -Update Booking (PUT): Ensuring bookings can be updated successfully. -Partial Update (PATCH): Testing partial updates to booking data and validating responses. -Delete Booking (DELETE): Testing deletion of bookings, including scenarios for non-existent bookings. -Health Check (GET /ping): Verifying the API’s availability with a simple ping request.
